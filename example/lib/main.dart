@@ -24,8 +24,9 @@ class _MyAppState extends State<MyApp> {
                     child: new Text("Redirect App"),
                     onPressed: () {
                       StoreRedirect.redirect(
-                          androidAppId: "com.iyaffle.rangoli",
-                          iOSAppId: "585027354");
+                        androidAppId: "io.github.x_wei.flutter_catalog",
+                        iOSAppId: "1458332586",
+                      );
                     }))));
   }
 }
